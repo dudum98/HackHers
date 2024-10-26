@@ -3,7 +3,7 @@ import React from 'react';
 import { useClerk } from '@clerk/clerk-react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import './style1.css';
-import Chat from './Chat';
+
 
 function Dashboard() {
     const { signOut } = useClerk();
@@ -37,7 +37,7 @@ function Dashboard() {
           <button onClick={() => signOut()}>Sign Out</button>
         </div>
   
-        <Chat /> {/* Add the Chat component here */}
+     
       </div>
     );
   }
