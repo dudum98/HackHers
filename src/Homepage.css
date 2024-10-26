@@ -1,0 +1,44 @@
+/* src/HomePage.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0ff; /* Light background */
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.btn {
+  background-color: #c8a2ff; /* Light purple */
+  color: white;
+  padding: 18px 36px;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  background-color: #b089f9; /* Slightly darker purple */
+  transform: scale(1.05);
+}
+
+.btn:active {
+  background-color: #a075e8; /* Darker shade for active state */
+  transform: scale(0.95);
+}
